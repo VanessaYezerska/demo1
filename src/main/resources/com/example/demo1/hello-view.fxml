@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
+   <children>
+      <HBox maxHeight="100.0" prefHeight="100.0" prefWidth="600.0">
+         <children>
+            <Button id="add" fx:id="add" mnemonicParsing="false" onAction="#showDialog" prefHeight="40.0" prefWidth="140.0" text="Добавити">
+               <HBox.margin>
+                  <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="delete" fx:id="delete" mnemonicParsing="false" onAction="#hhh" prefHeight="40.0" prefWidth="140.0" text="Видалити">
+               <HBox.margin>
+                  <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+               </HBox.margin>
+            </Button>
+            <Button id="edit" fx:id="edit" mnemonicParsing="false" onAction="#hhb" prefHeight="40.0" prefWidth="140.0" text="Редагувати">
+               <HBox.margin>
+                  <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </HBox>
+      <AnchorPane maxHeight="100.0" prefHeight="100.0" prefWidth="600.0">
+         <VBox.margin>
+            <Insets left="30.0" right="30.0" />
+         </VBox.margin>
+         <children>
+            <TextField prefHeight="40.0" prefWidth="310.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="230.0" />
+            <Button id="search" fx:id="search" layoutX="400.0" mnemonicParsing="false" onAction="#searching" prefHeight="40.0" prefWidth="140.0" text="Пошук" AnchorPane.rightAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="10.0" layoutY="360.0" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+         <children>
+            <TableView layoutX="30.0" layoutY="8.0" prefHeight="185.0" prefWidth="490.0" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="80.0" AnchorPane.topAnchor="8.0">
+              <columns>
+                <TableColumn prefWidth="162.0" text="ПІП" />
+                <TableColumn prefWidth="437.0" text="Телефон" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="100.0" prefWidth="600.0">
+         <VBox.margin>
+            <Insets bottom="30.0" left="30.0" right="30.0" />
+         </VBox.margin>
+         <children>
+            <Label text="Кількість записів:" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
