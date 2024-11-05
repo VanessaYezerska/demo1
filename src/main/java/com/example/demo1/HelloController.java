@@ -8,6 +8,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
+import javafx.scene.image.ImageView;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 import java.io.IOException;
@@ -25,10 +26,35 @@ public class HelloController {
     private Button edit;
 
     @FXML
+    private Button other;
+
+    @FXML
+    private Button out;
+
+    @FXML
     private Button search;
+
+
+    @FXML
+    void exit(ActionEvent event) {
+
+    }
 
     @FXML
     void hhb(ActionEvent event) {
+
+    }
+
+
+
+    @FXML
+    void searching(ActionEvent event) {
+
+    }
+
+
+    @FXML
+    void handleYesButton(ActionEvent event) {
 
     }
 
@@ -41,21 +67,17 @@ public class HelloController {
         alert.showAndWait();
 
     }
-    @FXML
-    void searching(ActionEvent event) {
-
-    }
 
 
     @FXML
-    protected void showDialog(ActionEvent event){
+     void showDialog(ActionEvent event){
         FXMLLoader fxmlLoader = new FXMLLoader(HelloController.class.getResource("adress.fxml"));
         try {
             Stage stage = new Stage();
             Scene scene = new Scene(fxmlLoader.load(), 600,300);
             stage.setScene(scene);
 
-            stage.setTitle("Редагування");
+            stage.setTitle("Добавляємо");
             stage.setMinHeight(300);
             stage.setMinWidth(300);
             stage.setResizable(false);
@@ -67,12 +89,39 @@ public class HelloController {
             e.getStackTrace();
         }
     }
+
+    @FXML
+    void page(ActionEvent event) {
+        FXMLLoader fxmlLoader = new FXMLLoader(HelloController.class.getResource("otherPage.fxml"));
+
+        try {
+            Stage stage = new Stage();
+            Scene scene=new Scene(fxmlLoader.load(),600,600);
+            stage.setScene(scene);
+
+            stage.setTitle("Other Labs");
+            stage.setMinHeight(200);
+            stage.setMinWidth(400);
+            stage.setResizable(false);
+            stage.initModality(Modality.WINDOW_MODAL);
+            stage.initOwner(other.getScene().getWindow());
+            stage.show();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+
+
     @FXML
     void initialize() {
         assert add != null : "fx:id=\"add\" was not injected: check your FXML file 'hello-view.fxml'.";
         assert delete != null : "fx:id=\"delete\" was not injected: check your FXML file 'hello-view.fxml'.";
         assert edit != null : "fx:id=\"edit\" was not injected: check your FXML file 'hello-view.fxml'.";
         assert search != null : "fx:id=\"search\" was not injected: check your FXML file 'hello-view.fxml'.";
+        assert other != null : "fx:id=\"other\" was not injected: check your FXML file 'hello-view.fxml'.";
+        assert out != null : "fx:id=\"out\" was not injected: check your FXML file 'hello-view.fxml'.";
     }
 
 

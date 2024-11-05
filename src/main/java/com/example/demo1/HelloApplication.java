@@ -6,6 +6,9 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
+import java.util.concurrent.RecursiveTask;
 
 public class HelloApplication extends Application {
     @Override
@@ -17,6 +20,10 @@ public class HelloApplication extends Application {
         stage.setMinWidth(600);
         stage.setScene(scene);
         stage.show();
+        scene.getStylesheets().add("/sample/my.css");
+        stage.setScene(scene);
+
+
     }
 
     public static void main(String[] args) {
