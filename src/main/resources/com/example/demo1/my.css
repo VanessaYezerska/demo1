@@ -1,12 +1,14 @@
 .button{
--fx-background-color: #778FD2;
+-fx-background-color: #9BBFF8;
 -fx-background-radius: 5px;
--fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.3), 5, 0, 0, 1);
 -fx-text-fill: black;
 }
-/*.background-scene {
-    -fx-background-color: #3498db; *//* Синій фон *//*
-}*/
+VBox{
+-fx-background-color: #D5E1FB;
+}
+AnchorPane{
+-fx-background-color: #D5E1FB;
+}
 
 
 

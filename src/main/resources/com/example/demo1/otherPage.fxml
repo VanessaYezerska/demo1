@@ -7,18 +7,18 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.OtherLabs">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@my.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.HelloController">
    <children>
       <ImageView fx:id="image1" fitHeight="216.0" fitWidth="323.0" layoutX="139.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@firstImage.jpg" />
          </image>
       </ImageView>
-      <Label layoutX="122.0" layoutY="31.0" prefHeight="36.0" prefWidth="396.0" text="Вітаю! Бажаєте змінити картинку?">
+      <Label fx:id="label" layoutX="139.0" layoutY="30.0" prefHeight="36.0" prefWidth="396.0" text="Вітаю! Бажаєте змінити картинку?">
          <font>
             <Font size="22.0" />
          </font>
       </Label>
-      <Button fx:id="yes" layoutX="252.0" layoutY="330.0" mnemonicParsing="false" onAction="#displayImage" prefHeight="36.0" prefWidth="96.0" text="Так" />
+      <Button fx:id="yes" layoutX="252.0" layoutY="330.0" mnemonicParsing="false"  prefHeight="36.0" prefWidth="96.0" stylesheets="@my.css" text="Так" />
    </children>
 </AnchorPane>
