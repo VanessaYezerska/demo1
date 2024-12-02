@@ -55,8 +55,7 @@
       </AnchorPane>
       <AnchorPane prefHeight="100.0" prefWidth="600.0">
          <children>
-            <Button id="out" fx:id="out" layoutX="431.0" layoutY="23.0" mnemonicParsing="false" onAction="#exit" prefHeight="58.0" prefWidth="140.0" text="Вихід" AnchorPane.rightAnchor="30.0" />
-            <Button id="other" fx:id="other" layoutX="30.0" layoutY="23.0" mnemonicParsing="false"  prefHeight="58.0" prefWidth="140.0" text="Other Labs" AnchorPane.leftAnchor="30.0" />
+            <Button id="out" fx:id="out" layoutX="422.0" layoutY="59.0" mnemonicParsing="false" onAction="#exit" prefHeight="58.0" prefWidth="140.0" text="Вихід" AnchorPane.rightAnchor="38.0" />
          </children>
       </AnchorPane>
       <AnchorPane prefHeight="100.0" prefWidth="600.0">

@@ -19,6 +19,6 @@
             <Font size="22.0" />
          </font>
       </Label>
-      <Button fx:id="yes" layoutX="252.0" layoutY="330.0" mnemonicParsing="false"  prefHeight="36.0" prefWidth="96.0" stylesheets="@my.css" text="Так" />
+      <Button fx:id="yes" layoutX="252.0" layoutY="330.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="96.0" stylesheets="@my.css" text="Так" />
    </children>
 </AnchorPane>

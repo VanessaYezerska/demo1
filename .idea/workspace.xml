@@ -29,8 +29,6 @@
       <change afterPath="$PROJECT_DIR$/../..//eks/out/production/eks/Two.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../..//eks/out/production/eks/eks.zip" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../..//tg.bot/java.bot/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/AddressDialogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../..//library/java.bot/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../..//library/java.bot/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../..//library/java.bot/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
@@ -44,10 +42,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo1/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/HelloApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo1/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo1/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo1/OtherLabs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo1/adress.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo1/adress.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo1/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo1/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo1/my.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo1/my.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/demo1/otherPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/demo1/otherPage.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
